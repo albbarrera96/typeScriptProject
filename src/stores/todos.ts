@@ -5,10 +5,7 @@ export const useTodosStore = defineStore('todos', () => {
     
     const state = ref({
         "todos": [
-            "Learn Vue 3",
-            "Learn Pinia",
-            "Learn TypeScript",
-            "Learn Vite"
+            "Test todo"
         ],
     })
     const newTodo = ref('')
