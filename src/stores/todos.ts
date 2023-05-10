@@ -5,7 +5,7 @@ export const useTodosStore = defineStore('todos', () => {
     
     const state = ref({
         "todos": [
-            "Test todo"
+            "Test todo "
         ],
     })
     const newTodo = ref('')

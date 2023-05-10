@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="row mt-4 g-2">
-            <div class="col-3" v-for="todo in todosStore.state.todos">
+            <div class="col-3" v-for="todo in todosStore.state.todos" :key="todo.id">
                 <div class="card shadow">
                     <div class="card-body">
                         <div class="card-title d-flex">
